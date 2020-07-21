@@ -1,0 +1,31 @@
+#iwant{
+	background-color: red;
+	color: white;
+	border:2px solid red;
+	transition:0.3s;
+	font-weight: bold;
+}
+
+#iwant:hover{
+	background-color: white;
+	color:red;
+}
+.testimonies{
+	background-image: url("../img/notebook2.jpg");
+	color: white;
+
+}
+.balao h2{
+	font-weight: bold;
+
+}
+.bottom-text h4,p{
+	font-weight: bold;
+}
+.tablet-successful-male{
+	margin: 0 auto;
+}
+.video{
+	height: 300px;
+	width: 100%;
+}

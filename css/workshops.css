@@ -1,0 +1,158 @@
+nav{
+	margin: 0 !important;
+}
+.workshop-squares{
+	background-color: #222222;
+	color:white;
+	padding: 25px;
+	height: 340px;
+	width: 320px;
+	margin-right :20px;
+	margin-left: 40px;
+	border:1px solid white;
+	border-radius: 20px;
+
+}
+
+.item{
+	max-height: 700px !important;
+}
+
+.workshop-squares p{
+	text-align: justify;
+}
+.workshops-titles{
+	text-align: center !important;
+}
+.item img{
+	width: 100%
+}
+.pictures{
+	height: 650px !important;
+}
+.section-warren-business{
+	margin-top: 40px;
+}
+.workshop-buttons:hover{
+	background-color: black;
+	color: white;
+	transition: .3s;
+	border-color: black;
+	border:1px solid white;
+}
+.row-squares{
+	
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.font-weight-bold{
+	font-weight: bold;
+}
+
+.row{
+	margin: 0;
+}
+
+.workshop-squares-img{
+	width: 80px !important; 
+	margin: 0 auto;
+}
+.workshop-buttons{
+	background-color: white; 
+	color: black;
+	position: relative;
+	left: 50% !important;
+	transform: translateX(-50%);
+	margin-top: 20px;
+
+	
+}
+.testimonies-section{
+	background-image: url(../img/notebook2.jpg);
+	color: white;
+}
+.video-workshop{
+
+	margin: 0 auto;
+	display: block;
+
+}
+
+footer{
+	margin: 0 !important;
+}
+@media screen and (max-width: 1199px){
+	.workshop-squares{
+		width: 252px;
+		padding: 20px;
+	}
+}
+
+
+@media screen and (max-width: 990px){
+	.workshop-squares{
+		width: 200px;
+		padding: 15px;
+		margin-right: 0;
+		height: auto;
+	}
+}
+
+@media screen and (max-width: 766px){
+	.workshop-squares{
+		width: 300px;
+		padding: 15px;
+		margin-right: 0;
+		margin-left: 0;
+		left: 50%;
+		transform: translateX(-50%);
+		margin-bottom: 20px;
+	}
+	.pictures{
+		
+		height: 440px !important;
+	}
+}
+
+@media screen and (max-width: 855px){
+	.pictures{
+		
+		height: 500px !important;
+	}
+}
+
+@media screen and (max-width: 670px){
+	.pictures{
+		
+		height: 420px !important;
+	}
+
+	
+}
+
+@media screen and (max-width: 570px){
+	.pictures{
+		
+		height: 400px !important;
+	}
+
+	
+}
+
+@media screen and (max-width: 450px){
+	.pictures{
+		
+		height: 280px !important;
+	}
+
+	
+}
+
+@media screen and (max-width: 320px){
+	.pictures{
+		
+		height: 240px !important;
+	}
+
+	
+}

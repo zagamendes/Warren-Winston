@@ -1,0 +1,56 @@
+body{
+	overflow-x: hidden;
+}
+footer{
+	margin-top: 40px;
+	background: black;
+}
+footer .row{
+	margin: 0 !important;
+}
+
+footer div{
+	text-align: center;
+}
+.row-footer{
+	height: 120px;
+}
+
+.footer-logo{
+	max-width: 160px;
+	margin:0 auto;
+}
+			
+.social-media{
+	display: inline-block;
+}
+.cols-footer{
+	transform: translateY(-50%); 
+	top: 50%; 
+	color: white;
+}
+
+
+.social-media img{
+	max-width: 48px;
+}
+@media screen and (max-width: 766px){
+	.cols-footer{
+		transform: translateY(0);
+		top: 0;
+		margin-top: 40px;
+	}
+	.row-footer{
+		height: 300px !important;
+	}
+
+}
+
+@media screen and (max-width: 320px){
+	.row-footer{
+		height: 340px !important;
+	}
+	.social-media{
+		max-width: 40px;
+	}
+}
